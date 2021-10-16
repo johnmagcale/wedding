@@ -1,17 +1,17 @@
-@import url(//db.onlinewebfonts.com/c/95f9809ea209ebe544c29add5f8ea751?family=Kristallian);
+@import url(//db.onlinewebfonts.com/c/20e9fce1ca54ce1d7b7a7329de9bdaef?family=Gistesy);
 
 @font-face {
-  font-family: "Kristallian";
-  src: url("//db.onlinewebfonts.com/t/95f9809ea209ebe544c29add5f8ea751.eot");
-  src: url("//db.onlinewebfonts.com/t/95f9809ea209ebe544c29add5f8ea751.eot?#iefix")
+  font-family: "Gistesy";
+  src: url("//db.onlinewebfonts.com/t/20e9fce1ca54ce1d7b7a7329de9bdaef.eot");
+  src: url("//db.onlinewebfonts.com/t/20e9fce1ca54ce1d7b7a7329de9bdaef.eot?#iefix")
       format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/95f9809ea209ebe544c29add5f8ea751.woff2")
+    url("//db.onlinewebfonts.com/t/20e9fce1ca54ce1d7b7a7329de9bdaef.woff2")
       format("woff2"),
-    url("//db.onlinewebfonts.com/t/95f9809ea209ebe544c29add5f8ea751.woff")
+    url("//db.onlinewebfonts.com/t/20e9fce1ca54ce1d7b7a7329de9bdaef.woff")
       format("woff"),
-    url("//db.onlinewebfonts.com/t/95f9809ea209ebe544c29add5f8ea751.ttf")
+    url("//db.onlinewebfonts.com/t/20e9fce1ca54ce1d7b7a7329de9bdaef.ttf")
       format("truetype"),
-    url("//db.onlinewebfonts.com/t/95f9809ea209ebe544c29add5f8ea751.svg#Kristallian")
+    url("//db.onlinewebfonts.com/t/20e9fce1ca54ce1d7b7a7329de9bdaef.svg#Gistesy")
       format("svg");
 }
 
@@ -19,7 +19,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Kristallian";
+  font-family: "Gistesy";
   scroll-behavior: smooth;
   background-color: #ffff;
 }
@@ -29,7 +29,7 @@ body {
 }
 
 .container {
-  min-height: 100vh;
+  min-height: 100%;
   width: 100%;
   box-sizing: border-box;
 }
@@ -52,26 +52,107 @@ body {
 @media only screen and (max-width: 700px) {
   * {
     scroll-behavior: smooth;
+    background: transparent;
+  }
+
+  #main-container {
   }
 
   #paul-title {
-    margin-top: 35vh;
-    margin-left: 10%;
+    background: transparent;
+    margin-top: 19vh;
+    margin-left: 12%;
     position: center;
-    font-size: 7.5vh;
+    font-size: 15.5vh;
+    background: hsla(43, 36%, 25%, 1);
+
+    background: linear-gradient(
+      45deg,
+      hsla(43, 36%, 25%, 1) 0%,
+      hsla(41, 54%, 74%, 1) 100%
+    );
+
+    background: -moz-linear-gradient(
+      45deg,
+      hsla(43, 36%, 25%, 1) 0%,
+      hsla(41, 54%, 74%, 1) 100%
+    );
+
+    background: -webkit-linear-gradient(
+      45deg,
+      hsla(43, 36%, 25%, 1) 0%,
+      hsla(41, 54%, 74%, 1) 100%
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#584B29", endColorstr="#E1CB9A", GradientType=1 );
   }
 
   #plus-title {
-    margin-top: -11vh;
-    margin-left: 45%;
+    background: transparent;
+    margin-top: -16vh;
+    margin-left: 50%;
     position: center;
-    font-size: 10vh;
+    font-size: 15vh;
+
+    background: hsla(43, 36%, 25%, 1);
+
+    background: linear-gradient(
+      45deg,
+      hsla(43, 36%, 25%, 1) 0%,
+      hsla(41, 54%, 74%, 1) 100%
+    );
+
+    background: -moz-linear-gradient(
+      45deg,
+      hsla(43, 36%, 25%, 1) 0%,
+      hsla(41, 54%, 74%, 1) 100%
+    );
+
+    background: -webkit-linear-gradient(
+      45deg,
+      hsla(43, 36%, 25%, 1) 0%,
+      hsla(41, 54%, 74%, 1) 100%
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#584B29", endColorstr="#E1CB9A", GradientType=1 );
   }
 
   #alexis-title {
-    margin-top: -11vh;
+    background: transparent;
+    margin-top: -15vh;
     margin-right: 10%;
     text-align: right;
-    font-size: 7.5vh;
+    font-size: 15.5vh;
+
+    background: hsla(43, 36%, 25%, 1);
+
+    background: linear-gradient(
+      90deg,
+      hsla(43, 36%, 25%, 1) 0%,
+      hsla(41, 54%, 74%, 1) 100%
+    );
+
+    background: -moz-linear-gradient(
+      90deg,
+      hsla(43, 36%, 25%, 1) 0%,
+      hsla(41, 54%, 74%, 1) 100%
+    );
+
+    background: -webkit-linear-gradient(
+      90deg,
+      hsla(43, 36%, 25%, 1) 0%,
+      hsla(41, 54%, 74%, 1) 100%
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#584B29", endColorstr="#E1CB9A", GradientType=1 );
   }
 }
