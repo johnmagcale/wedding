@@ -1,0 +1,77 @@
+@import url(//db.onlinewebfonts.com/c/95f9809ea209ebe544c29add5f8ea751?family=Kristallian);
+
+@font-face {
+  font-family: "Kristallian";
+  src: url("//db.onlinewebfonts.com/t/95f9809ea209ebe544c29add5f8ea751.eot");
+  src: url("//db.onlinewebfonts.com/t/95f9809ea209ebe544c29add5f8ea751.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/95f9809ea209ebe544c29add5f8ea751.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/95f9809ea209ebe544c29add5f8ea751.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/95f9809ea209ebe544c29add5f8ea751.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/95f9809ea209ebe544c29add5f8ea751.svg#Kristallian")
+      format("svg");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kristallian";
+  scroll-behavior: smooth;
+  background-color: #ffff;
+}
+
+html,
+body {
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#main-container {
+  position: relative;
+  outline: none !important;
+}
+
+/* .main-leaf {
+  position: fixed;
+  object-fit: none;
+  object-position: 40%;
+  height: 100%;
+  width: 100vw;
+  opacity: 50%;
+} */
+
+/* For phones */
+@media only screen and (max-width: 700px) {
+  * {
+    scroll-behavior: smooth;
+  }
+
+  #paul-title {
+    margin-top: 35vh;
+    margin-left: 10%;
+    position: center;
+    font-size: 7.5vh;
+  }
+
+  #plus-title {
+    margin-top: -11vh;
+    margin-left: 45%;
+    position: center;
+    font-size: 10vh;
+  }
+
+  #alexis-title {
+    margin-top: -11vh;
+    margin-right: 10%;
+    text-align: right;
+    font-size: 7.5vh;
+  }
+}
