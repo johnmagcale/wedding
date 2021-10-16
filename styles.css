@@ -9,6 +9,10 @@
 
 html,
 body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 .container {
@@ -21,15 +25,6 @@ body {
   position: relative;
   outline: none !important;
 }
-
-/* .main-leaf {
-  position: fixed;
-  object-fit: none;
-  object-position: 40%;
-  height: 100%;
-  width: 100vw;
-  opacity: 50%;
-} */
 
 /* For phones */
 @media only screen and (max-width: 700px) {
@@ -104,7 +99,16 @@ body {
     height: 70vh;
     width: 50vh;
     top: 35vh;
-    right: 30%;
+    left: -18vh;
+  }
+
+  #watercolor {
+    position: absolute;
+    z-index: -1;
+    height: 90vh;
+    width: 60vh;
+    top: 20vh;
+    left: -23vh;
   }
 
   #paul-title {
@@ -264,12 +268,6 @@ body {
     justify-content: center;
   }
 
-  #principal-sponsors {
-    min-height: 100vh;
-    width: 100%;
-    /* border: 4px solid red; */
-  }
-
   .description1 {
     font-family: "CharterC";
     position: absolute;
@@ -280,6 +278,23 @@ body {
     margin-right: 2vh;
     left: 40%;
     text-align: right;
+    right: 0vh;
+  }
+
+  #request2 {
+    margin-top: 49vh;
+    margin-right: 2vh;
+    left: 30%;
+    text-align: right;
+    right: 0vh;
+  }
+
+  #request3 {
+    margin-top: 51vh;
+    margin-right: 2vh;
+    left: 40%;
+    text-align: right;
+    right: 0vh;
   }
 
   #december {
@@ -287,6 +302,14 @@ body {
     margin-right: 2vh;
     left: 50%;
     text-align: right;
+    right: 0vh;
+  }
+
+  #three {
+    margin-top: 57vh;
+    margin-right: 2vh;
+    text-align: right;
+    right: 0vh;
   }
 
   #early {
@@ -297,7 +320,7 @@ body {
   }
 
   #antipolo {
-    margin-top: 58.5vh;
+    margin-top: 59vh;
     margin-right: 2vh;
     text-align: right;
     right: 0vh;
@@ -317,5 +340,225 @@ body {
     margin-right: 2vh;
     text-align: right;
     right: 0vh;
+  }
+
+  #principal-sponsors {
+    min-height: 100vh;
+    width: 100%;
+  }
+
+  #sticky-div {
+    position: sticky;
+    font-family: "Gistesy";
+    font-size: 5vh;
+    text-align: right;
+    margin-right: 2vh;
+  }
+
+  .boldTitles {
+    font-family: "CharterBold";
+    font-size: 1.7vh;
+    text-align: right;
+    margin-right: 2vh;
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+  }
+
+  .boldTitles2 {
+    font-family: "CharterBold";
+    font-size: 1.5vh;
+    text-align: right;
+    margin-right: 2vh;
+    margin-bottom: 1vh;
+  }
+
+  .names {
+    position: relative;
+    font-family: "CharterC";
+    font-size: 1.5vh;
+    text-align: right;
+    margin-right: 2vh;
+  }
+
+  table {
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+
+  th {
+    width: 50%;
+  }
+
+  #leaf2 {
+    position: relative;
+    height: 10vh;
+    width: 10vh;
+    top: 5vh;
+    left: 0vh;
+    background: transparent;
+    transform: rotate(-45deg);
+  }
+
+  #leaf1 {
+    position: relative;
+    height: 13vh;
+    width: 13vh;
+    top: 90vh;
+    left: -10vh;
+    background: transparent;
+  }
+
+  #watercolor1 {
+    position: absolute;
+    z-index: -1;
+    height: 40vh;
+    width: 40vh;
+    top: 90%;
+    left: -10vh;
+    background: transparent;
+  }
+
+  #watercolor2 {
+    position: absolute;
+    z-index: -1;
+    height: 50vh;
+    width: 50vh;
+    top: 180%;
+    left: -30vh;
+    opacity: 60%;
+    background: transparent;
+  }
+
+  #watercolor3 {
+    position: absolute;
+    z-index: -1;
+    height: 50%;
+    width: 50%;
+    top: 130%;
+    left: 50%;
+    opacity: 50%;
+    background: transparent;
+    transform: rotate(180deg);
+  }
+
+  #RSVP {
+    height: 100vh;
+    max-width: 100%;
+  }
+
+  #leaf3 {
+    position: relative;
+    height: 33vh;
+    width: 16.5vh;
+    top: -1.5vh;
+    left: 0vh;
+    background: transparent;
+  }
+
+  #watercolor4 {
+    position: absolute;
+    z-index: -1;
+    height: 40vh;
+    width: 40vh;
+    top: 210vh;
+    left: -10vh;
+    opacity: 60%;
+    background: transparent;
+  }
+
+  .boldTitles3 {
+    position: relative;
+    font-family: "Gistesy";
+    font-size: 3rem;
+    text-align: right;
+    margin-right: 2vh;
+    margin-bottom: 1vh;
+    margin-top: -25vh;
+  }
+
+  .last1 {
+    position: relative;
+    font-family: "CharterC";
+    font-size: 1.7vh;
+    text-align: right;
+    right: 0;
+    margin-right: 2vh;
+  }
+
+  .dot {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 1vh;
+  }
+
+  #dot1 {
+    margin-left: 60%;
+    background-color: #8c9bae;
+  }
+
+  #dot2 {
+    background-color: #c49190;
+  }
+
+  #dot3 {
+    background-color: #b79f7b;
+  }
+
+  .last2 {
+    position: relative;
+    font-family: "CharterC";
+    font-size: 1.5vh;
+    text-align: right;
+    right: 0;
+    margin-right: 2vh;
+  }
+
+  .needSpace {
+    margin-bottom: 25vh;
+  }
+
+  .needsmallSpace {
+    margin-bottom: 17vh;
+  }
+
+  #last-phrase {
+    margin-left: 15vh;
+  }
+
+  .details {
+    position: absolute;
+    font-family: "CharterBold";
+    font-size: 5vh;
+    margin-left: 3.5vh;
+    margin-top: 15vh;
+  }
+
+  #de {
+    margin-top: -40vh;
+  }
+  #tai {
+    margin-top: -35vh;
+  }
+  #ls {
+    margin-top: -30vh;
+  }
+
+  #watercolor5 {
+    position: absolute;
+    z-index: -1;
+    height: 40vh;
+    width: 40vh;
+    top: 310vh;
+    left: 20%;
+    opacity: 60%;
+    background: transparent;
+    transform: rotate(180deg);
+  }
+
+  .qr {
+    height: 5%;
+    max-width: 50%;
   }
 }
